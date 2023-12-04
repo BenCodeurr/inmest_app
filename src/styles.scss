@@ -41,9 +41,7 @@ $inmest-web-theme: mat.define-light-theme((
 body {
     margin: 0px;
 }
-.logo {
-    width: 60px;
-}
+
 .goo-wrapper {
     display: flex;
     flex-direction: row;
@@ -54,9 +52,8 @@ body {
 }
 .goo-wrapper .side-nav .menu {
     list-style-type: none;
-    padding-left: 30px;
+    padding-left: 10px;
 }
-
 .goo-wrapper .side-nav .menu a {
      color: #00C8C8;
      padding: 10px 10px;
@@ -67,22 +64,27 @@ body {
      cursor: pointer;
      margin-bottom: 5px;
 }
-
 .goo-wrapper .side-nav .menu a:hover {
     background-color: #00C8C8;
     color: #fff;
 }
 
+.goo-wrapper .side-nav .menu a i:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.goo-wrapper .side-nav .menu .menu-icon {
+    width: 25px;
+    margin-right: 10px;
+
+}
 .goo-wrapper .side-nav .menu .menu-active {
     background-color: #00C8C8;
     color: #fff;
 }
 
-
-
-h1 {
-    font-size: 80px;
-    font-family: 'Roboto', Verdana, sans-serif;
+i {
+    background-color: transparent;
 }
 
 
