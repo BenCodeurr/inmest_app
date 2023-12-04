@@ -4,23 +4,27 @@ nav {
     background-color: #21999D;
     padding: 1rem 3.5rem;
 }
-
+img {
+    background-color: transparent;
+}
 .right-nav {
     margin-left: auto;
     gap: 1rem !important;
 }
-
+#admin-select {
+    color: #ffffff;
+}
 svg {
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     padding: .5rem;
+    background-color: transparent;
 }
 .right-nav , .user-container {
     display: flex;
     align-items: center;
+    background-color: #21999D;
 }
-
-
 .user-container {
     border: 1px solid white;
     padding: .25rem;
