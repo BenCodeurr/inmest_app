@@ -90,7 +90,6 @@ body {
 }
 .logo {
     width: 60px;
-
 }
 .goo-wrapper {
     display: flex;
@@ -112,7 +111,6 @@ body {
      border-radius: 25px;
      cursor: pointer;
      margin-bottom: 5px;
-
 }
 .goo-wrapper .side-nav .menu a:hover {
     background-color: #00C8C8;
@@ -127,17 +125,14 @@ body {
     background-color: #00C8C8;
     color: #fff;
 }
-
 body {
     background-color: #000000;
-    }
-
+}
 h1 {
     // color:#fff;
     font-size: 80px;
     font-family: 'Roboto', Verdana, sans-serif;
 }
-
 .navbar {
     float: left;
     color:#fff;
@@ -147,8 +142,6 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
-
 .nav-item {
     float: left;
     list-style-type: none;
@@ -157,18 +150,16 @@ h1 {
     color:azure;
     font-size: 50px;
     font-family: 'Roboto', Verdana, sans-serif;
-  }
-
+}
 li a:hover {
     color:#FF2626;
-  }
+}
 
   a:-webkit-any-link {
     color:#fff;
     cursor: pointer;
     text-decoration: none;
 }
-
 .headertext {
     padding-top: 50px;
     font-size: 100px;
@@ -178,7 +169,6 @@ li a:hover {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
 .achievement-list {
     display: grid;
     padding-top: 2.5rem;
@@ -186,7 +176,6 @@ li a:hover {
     padding-left: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
 .list-heading {
     color:#fff;
     font-size: 35px;
@@ -194,17 +183,14 @@ li a:hover {
     font-weight: 400;
     line-height: 1.2em;
 }
-
 .list-subheading {
     font-family: 'Roboto', Verdana, sans-serif;
     font-weight:100;
     color:#fff;
 }
-
 .header-container {
     height:100vh;
 }
-
 .content-card {
     background-color:#fff;
     height:100vh;
@@ -215,7 +201,6 @@ li a:hover {
     /* padding: 80px 52px; */
     /* display: flex; */
 }
-
 .big-quote {
     font-family: 'Roboto', sans-serif;
     font-weight:400;
@@ -225,7 +210,6 @@ li a:hover {
     padding-top: 60px;
     padding-left: 30px;
 }
-
 .small-quote {
     font-family: 'Roboto', sans-serif;
     font-weight:100;
@@ -235,7 +219,6 @@ li a:hover {
     padding-bottom: 60px;
     padding-left: 30px;
 }
-
 .body-text {
     color:#fff;
     font-size: 25px;
@@ -266,7 +249,6 @@ li a:hover {
   .skills-container {
     height:100vh;
 }
-
 .skills-item {
     /* float: left; */
     text-align: center;
@@ -276,8 +258,18 @@ li a:hover {
     color:azure;
     font-family: 'Roboto', Verdana, sans-serif;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+    height: 100%;
+}
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
