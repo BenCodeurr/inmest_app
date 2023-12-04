@@ -12,6 +12,7 @@ import { ItSupportComponent } from './main-features/it-support/it-support.compon
 import { AttendanceRegisterComponent } from './main-features/attendance-register/attendance-register.component';
 import { AttendanceInnerComponent } from './main-features/attendance-inner/attendance-inner.component';
 import { NewUserComponent } from './main-features/new-user/new-user.component';
+import { SettingsComponent } from './main-features/settings/settings.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -24,10 +25,7 @@ export const routes: Routes = [
     {path: 'attendance-register', component: AttendanceRegisterComponent},
     {path:'attendance-inner/:id',component:AttendanceInnerComponent},
     {path : 'analytics', component: AnalyticsComponent},
-    // {
-    //     path: 'settings',
-    //     component: SettingsComponent,
-    //   },
-  {path: 'it-support', component: ItSupportComponent}
+    {path: 'settings', component: SettingsComponent},
+    {path: 'it-support', component: ItSupportComponent}
 
 ];
