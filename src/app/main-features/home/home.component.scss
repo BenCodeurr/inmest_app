@@ -10,7 +10,11 @@
     padding: 10px 30px;
     border-radius: 45px;
     border: none;
-    color: #fff;
+    color: #ffffff;
+  }
+
+  i, span {
+    background-color: transparent;
   }
   
   .intro-text h1 {
@@ -27,11 +31,13 @@
     width: 100%;
   }
   
-  .activity h3,
-  .glance h3 {
+  .activity h3, .glance h3 {
     margin: 0;
     font-size: 14px;
     margin-left: 0.5rem;
+  }
+  h3 {
+    background-color: transparent;
   }
   
   .activity {
@@ -44,8 +50,7 @@
     margin-bottom: 1rem;
   }
   
-  .activity i,
-  .glance i {
+  .activity i, .glance i {
     font-size: 16px;
   }
   

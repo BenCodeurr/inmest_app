@@ -16,13 +16,13 @@ import { TopNavComponent } from "./app-core/common/top-nav/top-nav.component";
 export class AppComponent implements OnChanges, OnInit  {
 
   title = 'inmest-web';
-  name = "Lucky";
+  name = "Paulo";
   profile = {
     id: 1,
-    first_name: "Lucky",
-    last_name: "Dogbey"
+    first_name: "Paulo",
+    last_name: "Ouana"
   }
-  genesis = "hello";
+  genesis = "Hello";
 
   ngOnInit(): void {
     console.log('On Init');
@@ -35,7 +35,5 @@ export class AppComponent implements OnChanges, OnInit  {
     for(const inputChange in changes) {
       console.log(changes[inputChange].firstChange, inputChange);
     }
-  }
-
-  
+  }  
 }
