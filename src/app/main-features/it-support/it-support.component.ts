@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ItSupportService } from '../../services/it-support.service';
-import {MatTableModule} from '@angular/material/table';
-import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @Component({
@@ -16,19 +16,19 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class ItSupportComponent implements OnInit {
   incidents: any[] = [];
-// displayedColumns: any;
-displayedColumns: string[] = ['id', 'eitID', 'state', 'description', 'category', 'action'];
-  dataSource = this.incidents
+  displayedColumns: string[] = ['id', 'eitID', 'state', 'description', 'category', 'action'];
+  dataSource = this.incidents;
 
   constructor(
     private itSupportService: ItSupportService
-  ){}
+  ) { }
 
-ngOnInit(): void {
-  this.getMyIncidents();
-}
+  ngOnInit(): void {
+    this.getMyIncidents();
+  }
   getMyIncidents() {
     this.itSupportService.getIncidents().subscribe((res: any) => {
       this.incidents = res;
-    } ) }
+    })
+  }
 }
