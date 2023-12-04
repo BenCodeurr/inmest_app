@@ -10,7 +10,7 @@ import { AnalyticsComponent } from './main-features/analytics/analytics.componen
 import { HomeComponent } from './main-features/home/home.component';
 import { ItSupportComponent } from './main-features/it-support/it-support.component';
 import { AttendanceRegisterComponent } from './main-features/attendance-register/attendance-register.component';
-// import { AttendanceInnerComponent } from './main-features/attendance-inner/attendance-inner.component';
+import { AttendanceInnerComponent } from './main-features/attendance-inner/attendance-inner.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -20,7 +20,7 @@ export const routes: Routes = [
     // {path: 'leave', component: LeaveComponent},
     {path: 'leave/:id/:name', component: LeaveDetailComponent},
     {path: 'attendance-register', component: AttendanceRegisterComponent},
-    // {path:'attendance-inner/:id',component:AttendanceInnerComponent},
+    {path:'attendance-inner/:id',component:AttendanceInnerComponent},
     {path: 'user-detail', component: UserDetailComponent},
     {path : 'analytics', component: AnalyticsComponent},
     // {
