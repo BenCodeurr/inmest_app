@@ -81,7 +81,9 @@
     color: #0000008d;
     margin: 5px;
   }
-  
+  svg {
+    background-color: transparent;
+  }
   .last {
     border-bottom: none;
   }
@@ -245,7 +247,6 @@
       margin-bottom: 12px;
       width: 100%;
       padding: 0rem;
-      //   border-bottom: 1px solid #7070706c;
     }
   
     .long-container {
