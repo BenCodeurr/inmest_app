@@ -86,7 +86,7 @@
         </svg>
         <span>Users</span>
       </div>
-      <div class="round-item" [routerLink]="['/it-support']" [routerLinkActive]="'menu-active'" [routerLinkActiveOptions]="{exact: true}">
+      <a class="round-item" [routerLink]="['/it-support']" [routerLinkActive]="'menu-active'" [routerLinkActiveOptions]="{exact: true}">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="33"
@@ -100,7 +100,7 @@
             />
           </svg>
           <span>IT Support</span>
-      </div>
+      </a>
       <div class="round-item">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@
         </svg>
         <span>Approvals</span>
       </div>
-      <div class="round-item">
+      <div class="round-item" [routerLink]="['/analytics']" [routerLinkActive]="'menu-active'" [routerLinkActiveOptions]="{exact: true}">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="33"

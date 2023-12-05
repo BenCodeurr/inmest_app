@@ -6,24 +6,51 @@
     justify-content: space-between;
 }
 
-.analytics .analyticsCard{
-    padding: 40px;
-    background-color:  rgb(240, 240, 240);
+.analytics .card-body{
+    padding: 20px;
+    background-color:  #fff;
     width: 100%;
     margin: 20px;
     display: flex;
-    border-radius: 6px;  
-
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.analytics .analyticsCard h2{
-    font-size: 36px;
+.analytics .card-body .text-display, .analytics .card-body .text-display .card-text, .analytics .card-body .text-display .card-number{
+    background: transparent;
+}
+
+.text-display p{
+    font-size: 12px;
+    color: gray;
+}
+
+.analytics .card-body h3{
+    font-size: 40px;
     font-weight: bold;
 }
 
-.analytics .analyticsCard i {
+.analytics .card-body i {
     font-size: 32px;
     margin-right: 20px;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-users{
+    background-color: #7A9DC6;
+}
+.fa-list-ul{
+    background-color: #89CA7F;
+}
+.fa-assistive-listening-systems{
+    background-color: #4EE3D8;
 }
 
 .sectionTable{

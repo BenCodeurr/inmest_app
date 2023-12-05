@@ -47,12 +47,14 @@ body {
     flex-direction: row;
 }
 .goo-wrapper .side-nav {
-    width: 250px;
+    width: 200px;
     height: 100vh;
+    margin: 0 20px;
 }
+
 .goo-wrapper .side-nav .menu {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .goo-wrapper .side-nav .menu a {
      color: #00C8C8;
